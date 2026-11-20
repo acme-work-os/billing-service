@@ -25,3 +25,4 @@ export function formatTotal(invoice: Invoice): string {
   return (invoiceTotalCents(invoice) / 100).toFixed(2) + " " + invoice.currency;
 }
 // Azoro live test: harmless comment line.
+// Azoro live test: second commit after a release.
